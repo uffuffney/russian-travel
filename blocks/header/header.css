@@ -1,10 +1,20 @@
 .header{
     display: flex;
+    margin: auto;
     margin-top: 24px;
-    justify-content: space-between;
-    position: relative;
-    justify-self:center;
     width: 90%;
+    justify-content: space-between;
     max-height: 52px;
     height: 100%;
 }
+@media screen and (max-width: 768px){
+.header{
+    width:calc(100% - (24*2));
+}    
+}
+@media screen and (max-width:320px){
+.header{
+    width:calc(100% - (16*2));
+}
+}
+    
