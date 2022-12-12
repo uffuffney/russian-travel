@@ -7,3 +7,25 @@
     min-height: 200px;
     margin:0;
 }
+@media screen and (max-width: 1024px){
+    .lead__image{
+        width: 928px;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 1024px){
+    .lead__image{
+        width: 928px;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 768px){
+    .lead__image{
+        width: 768px;
+    }
+}
+@media screen and (max-width: 320px){
+    .lead__image{
+        width: 320px;
+    }
+}
