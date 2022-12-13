@@ -1,0 +1,11 @@
+.place__website_link{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: underline;
+    color: white;
+    list-style-type: none;
+    margin-bottom: 48px;
+}
