@@ -1,0 +1,10 @@
+.place__text{
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+@media screen and (max-width: 320px){
+    .place__text{
+        grid-column-start: 1
+    
+}}
