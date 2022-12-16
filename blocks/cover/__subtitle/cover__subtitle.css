@@ -24,4 +24,14 @@
         bottom:115px
     }
   }
-  
+  @media screen and (max-width: 320px){
+    .cover__subtitle{
+        right: 16px;
+        bottom:33px;
+        top:119px;
+        margin: 0;
+        width: 288px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+  }
