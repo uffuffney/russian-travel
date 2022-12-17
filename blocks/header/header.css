@@ -7,11 +7,6 @@
     max-height: 52px;
     height: 100%;
 }
-@media screen and (max-width: 768px){
-.header{
-    width:calc(100% - (24*2));
-}    
-}
 @media screen and (max-width:320px){
 .header{
     width:calc(100% - (16*2));
