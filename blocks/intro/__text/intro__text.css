@@ -6,3 +6,24 @@
   line-height: 163%;
   color: white;
 }
+@media screen and (max-width: 690px) {
+  .intro__text {
+    font-size: 16px;
+    line-height: 26.08px;
+    width: 80%;
+  }
+}
+@media screen and (max-width: 555px) {
+  .intro__text {
+    font-size: 16px;
+    line-height: 26.08px;
+    width: 70%;
+  }
+}
+@media screen and (max-width: 483px) {
+  .intro__text {
+    font-size: 16px;
+    line-height: 26.08px;
+    width: 40%;
+  }
+}

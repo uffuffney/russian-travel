@@ -12,13 +12,18 @@
    
   }
 }
+@media screen and (max-width: 975px) {
+  .place__bottom {
+    width: 60%;
+  }
+}
 @media screen and (max-width: 768px) {
   .place__bottom {
     max-width: 720px;
     gap: 28px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 635px) {
   .place__bottom {
     margin: 0;
     max-width: 320px;

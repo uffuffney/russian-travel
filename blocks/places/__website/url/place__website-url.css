@@ -8,7 +8,7 @@
   color: #aaaaaa;
   margin-top: 106px;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 635px) {
   .place__website-url {
     margin-top: 0;
   }
