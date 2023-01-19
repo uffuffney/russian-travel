@@ -5,29 +5,8 @@
   font-size: 18px;
   line-height: 29.34px;
   color: white;
-  max-width: 484px;
-  width: 484px;
+  width: 100%;
   margin-top: 0;
-}
-@media screen and (max-width: 1024px) {
-  .place__paragraph {
-    max-width: 456px;
-  }
-}
-@media screen and (max-width: 975px) {
-  .place__paragraph {
-    max-width: 440px;
-  }
-}
-@media screen and (max-width: 945px) {
-  .place__paragraph {
-    max-width: 400px;
-  }
-}
-@media screen and (max-width: 908px) {
-  .place__paragraph {
-    max-width: 356px;
-  }
 }
 @media screen and (max-width: 863px) {
   .place__paragraph {
@@ -37,26 +16,26 @@
 }
 @media screen and (max-width: 768px) {
   .place__paragraph {
-    max-width: 352px;
+    max-width: 330px;
     font-size: 16px;
     line-height: 26.08px;
   }
 }
-@media screen and (max-width: 739px) {
+@media screen and (max-width: 715px) {
   .place__paragraph {
-    max-width: 299px;
-  }
-}
-
-@media screen and (max-width: 687px) {
-  .place__paragraph {
-    max-width: 250px;
+    max-width:290px;
   }
 }
 @media screen and (max-width: 635px) {
   .place__paragraph {
-    max-width: 288px;
     margin-left: 16px;
     margin-right: 16px;
+    grid-column-start: 1;
   }
 }
+@media screen and (max-width: 330px) {
+  .place__paragraph {
+    max-width: 310px;
+  }
+}
+
