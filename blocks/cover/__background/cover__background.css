@@ -5,6 +5,9 @@
   position: relative;
   background-image: url(../../../images/cover-trains.jpg);
   background-size: cover;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   max-width: 1184px;
   min-width: 320px;
   max-height: 740px;

@@ -6,14 +6,11 @@
     text-align: right;
     color: white;
     display: flex;
-    position: absolute;
-    right: 0;
-    margin: 0;
+    
 }
 @media screen and (max-width:698px){
     .footer__copyright {
         line-height: 14px;
-        position: relative;
         text-align: left;
         margin-top: 16px;
         width: 100%;
