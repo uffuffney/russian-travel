@@ -5,7 +5,7 @@
   line-height: 76px;
   text-align: center;
   z-index: 1;
-  width: 560px;
+  width: 100%;
   display: flex;
   color: white;
   margin-bottom: 0;
@@ -13,26 +13,11 @@
   margin-top: 0;
   max-width: 560px;
   min-width: 288px;
-  min-height: 70px;
-  max-height: 152px;
-}
-@media screen and (max-width: 1024px) {
-  .cover__title {
-    right: 232px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .cover__title {
-    right: 104px;
-    top: 115px;
-  }
 }
 @media screen and (max-width: 320px) {
   .cover__title {
-    width: 288px;
-    right: 16px;
-    top: 33px;
-    margin: 0;
+    max-width: 288px;
+    width: 100%;
     font-size: 32px;
     line-height: 35px;
   }
