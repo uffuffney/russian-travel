@@ -1,0 +1,16 @@
+.place{
+max-width: 984px;
+display: grid;
+grid-template-columns: 48.75% 47.14%;
+grid-template-rows: max-content;
+gap: 48px 40px;
+padding-top: 80px;
+margin:0 auto 0 auto;
+box-sizing: border-box;
+}
+@media screen and (max-width: 630px) {
+  .place {
+    grid-template-columns: 320px;
+    grid-template-rows: min-content;
+  }
+}
