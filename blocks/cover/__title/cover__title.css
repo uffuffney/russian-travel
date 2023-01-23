@@ -14,10 +14,9 @@
   max-width: 560px;
   min-width: 288px;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 496px) {
   .cover__title {
     max-width: 288px;
-    width: 100%;
     font-size: 32px;
     line-height: 35px;
   }

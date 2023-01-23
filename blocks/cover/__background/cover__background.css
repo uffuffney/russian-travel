@@ -15,7 +15,11 @@
   min-height: 740px;
   text-decoration: none;
 }
-
+@media screen and (max-width: 430px) {
+  .cover__background {
+    min-height: 200px;
+  }
+}
 .cover__background::before {
   content:'';
   display: block;

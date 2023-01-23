@@ -1,0 +1,17 @@
+.header__link {
+  color: white;
+  margin-right: 18px;
+  text-decoration: none;
+}
+.header__link:nth-last-of-type(1) {
+  margin-right: 0;
+}
+.header__link:hover {
+  opacity: 0.7;
+}
+@media screen and (max-width: 320px) {
+  .header__link {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}

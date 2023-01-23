@@ -8,6 +8,11 @@ padding-top: 80px;
 margin:0 auto 0 auto;
 box-sizing: border-box;
 }
+@media screen and (max-width: 765px) {
+  .place {
+    gap:30px;
+  }
+}
 @media screen and (max-width: 630px) {
   .place {
     grid-template-columns: 320px;

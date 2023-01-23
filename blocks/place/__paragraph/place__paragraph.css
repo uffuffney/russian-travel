@@ -17,26 +17,20 @@
     line-height: 26.08px;
   }
 }
-@media screen and (max-width: 768px) {
-  .place__paragraph {
-    max-width: 330px;
-  }
-}
 @media screen and (max-width: 715px) {
   .place__paragraph {
-    max-width:290px;
+    max-width:260px;
   }
 }
 @media screen and (max-width: 635px) {
   .place__paragraph {
-    margin-left: 16px;
-    margin-right: 16px;
     grid-column-start: 1;
   }
 }
 @media screen and (max-width: 330px) {
   .place__paragraph {
-    max-width: 310px;
+    max-width: 288px;
+    margin:auto;
   }
 }
 

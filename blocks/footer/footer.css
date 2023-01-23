@@ -6,10 +6,15 @@
   width: calc(100% - (48px * 2));
   height: 100%;
 }
-@media screen and (max-width: 698px) {
+@media screen and (max-width: 706px) {
   .footer {
     flex-direction: column;
     margin-top: 0;
     justify-content: flex-start;
+  }
+}
+@media screen and (max-width: 330px) {
+  .footer {
+    margin-left: 16px;
   }
 }
