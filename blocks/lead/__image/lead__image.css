@@ -5,6 +5,12 @@
   max-height: 615px;
   min-width: 320px;
   min-height: 200px;
+  object-fit: contain;
   margin: 0 auto 0 auto;
+}
+@media screen and (max-width:1024px){
+  .lead__image{
+    max-width: 928px;
+  }
 }
 

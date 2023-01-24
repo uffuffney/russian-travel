@@ -1,12 +1,17 @@
 .header {
   display: flex;
-  margin: 24px auto 0 auto;
-  width: 90%;
+  margin: 24px 48px 0 48px;
   justify-content: space-between;
-  height: 100%;
+}
+@media screen and (max-width: 768px) {
+  .header {
+    margin:28px 24px 0 24px;
+  }
 }
 @media screen and (max-width: 320px) {
   .header {
     max-width: 288px;
+    min-height: 42px;
+    margin: 16px 16px 0 16px;
   }
 }

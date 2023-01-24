@@ -5,7 +5,7 @@
   font-size: 16px;
   line-height: 163%;
   color: white;
-  margin-top: 40px;
+  margin: 40px 0 0 0;
 }
 @media screen and (max-width: 430px){
   .intro__text{
